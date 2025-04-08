@@ -169,9 +169,14 @@ const LandingPage = () => {
             {/* Locations */}
             {orderTypeId === 3 && (
                 allLocations.length === 0 ? (
+                    <>
                     <div className="w-full text-center text-gray-500 mt-4">
                     No locations available.
                     </div>
+                    <div className='w-full flex justify-end'>
+                        <AddButton handleClick={handleAddAddress} text="Add New Address"  Color='mainColor' iconColor='mainColor' />
+                        </div>
+                    </>
                 ) : (
                     <>
                         <h1 className='text-2xl font-semibold'>Select Address</h1>
@@ -262,7 +267,7 @@ const LandingPage = () => {
                         </div>
                         <div className='w-full flex justify-end'>
                         <AddButton handleClick={handleAddAddress} text="Add New Address"  Color='mainColor' iconColor='mainColor' />
-                    </div>
+                        </div>
                     </>
                 )
             )}
