@@ -4,7 +4,7 @@ import DashIcon from "../../assets/Icons/DashIcon";
 import AppleIcon from "../../assets/Icons/AppleIcon";
 import GooglePlayIcon from "../../assets/Icons/GooglePlayIcon";
 import mainLogo from '../../assets/Images/mainLogo.jpeg'
-import MostafagadLogo from '../../assets/Images/MostafagadLogo.jpg'
+import MostafagadLogo from '../../assets/Images/MostafagadLogo.jpeg'
 import { Link } from "react-router-dom";
 const NewHomePage=()=>{
     return(

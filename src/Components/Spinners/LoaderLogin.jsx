@@ -2,7 +2,7 @@ import React from 'react'
 import { PulseLoader } from 'react-spinners'
 import RedLogo from '../../assets/Images/RedLogo'
 import mainLogo from '../../assets/Images/mainLogo.jpeg'
-import MostafagadLogo from '../../assets/Images/MostafagadLogo.jpg'
+import MostafagadLogo from '../../assets/Images/MostafagadLogo.jpeg'
 
 const LoaderLogin = () => {
        return (

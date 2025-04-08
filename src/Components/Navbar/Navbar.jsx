@@ -6,7 +6,7 @@ import { MdFavoriteBorder, MdRestaurantMenu } from 'react-icons/md';
 import CartIcon from '../../assets/Icons/CartIcon';
 import { LuUserRound } from 'react-icons/lu';
 import { useSelector } from 'react-redux';
-import MostafagadLogo from '../../assets/Images/MostafagadLogo.jpg'
+import MostafagadLogo from '../../assets/Images/MostafagadLogo.jpeg'
 
 const Navbar = () => {
        const location = useLocation();

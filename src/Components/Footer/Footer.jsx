@@ -5,7 +5,7 @@ import { FaPhoneAlt, FaWhatsapp, FaEnvelope, FaMapMarkerAlt,FaFacebookF, FaInsta
 import WhiteLogo from '../../assets/Images/WhiteLogo';
 import { Link } from 'react-router-dom';
 import mainLogo from '../../assets/Images/mainLogo.jpeg'
-import MostafagadLogo from '../../assets/Images/MostafagadLogo.jpg'
+import MostafagadLogo from '../../assets/Images/MostafagadLogo.jpeg'
 
 const Footer = () => {
   return (
